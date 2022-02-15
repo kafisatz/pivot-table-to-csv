@@ -3,6 +3,16 @@
 *This repository takes a `*.xslx` that contains a Pivot Table with hidden external source data and converts the pivot cache into a text file with `,` separated values. It takes into account files that are too big to be in memory and handles this situation by dividing the original data into `n` batches.*
 
 ## NOTE: this only works with xlsx files (it will fail on xlsb)
+Bernhard: I tested this sucessfully with python 3.9 / Windows 10 in February 2022.
+Venv commands are 
+
+`python -m venv c:/temp/ve`
+#then activate it with 
+`c:/temp/ve/Scripts/activate.bat`
+#then 
+`pip install -r requirements.txt`
+`python main.py -f abc.xlsx`
+
 
 ## Documentation
 ### Methodology
