@@ -2,6 +2,8 @@
 
 *This repository takes a `*.xslx` that contains a Pivot Table with hidden external source data and converts the pivot cache into a text file with `,` separated values. It takes into account files that are too big to be in memory and handles this situation by dividing the original data into `n` batches.*
 
+## NOTE: this only works with xlsx files (it will fail on xlsb)
+
 ## Documentation
 ### Methodology
 This codes unzips the `xlsx` file and extracts the data contained in the `pivotCacheRecords{0}.xlm` files. The pivot cache records are parsed and organized into a `,` separated values.  
