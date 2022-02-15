@@ -7,10 +7,15 @@ Bernhard: I tested this sucessfully with python 3.9 / Windows 10 in February 202
 Venv commands are 
 
 `python -m venv c:/temp/ve`
+
 #then activate it with 
+
 `c:/temp/ve/Scripts/activate.bat`
+
 #then 
+
 `pip install -r requirements.txt`
+
 `python main.py -f abc.xlsx`
 
 
